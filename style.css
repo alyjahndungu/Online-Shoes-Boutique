@@ -1,0 +1,408 @@
+
+/*Setting up the web screen responsiveness*/
+
+    body {
+        background-image: linear-gradient(90deg, #020024 0%, #348f50 35%,#56b4d3 100%);
+    }
+
+
+.navbar li a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navbar li a:hover:not(.active){
+    background-color: #38A1F3;
+    color: white;
+}
+/*For aminated serch tab*/
+.search-aminated input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* When the input field gets focus, change its width to 100% */
+  .search-aminated input[type=text]:focus {
+    width: 40%;
+  }
+
+.navbar li a{
+    text-decoration: none;
+    display: inline;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 10em;
+    padding: 13px 45px;
+   box-shadow: 2px -3px 22px #38A1F3;
+   border-color:#D3D3D3;
+   border-style: solid;
+   border-width: 1px;
+   background-attachment: fixed;
+   
+}
+
+.navbar li{
+    display: inline-block;
+    margin: 12px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+
+.intro-text{ 
+    padding-left: 50px;
+    margin-top: -370px; 
+    background-image: linear-gradient(90deg,  #e684ce  0%, #79cbca 35%,  #77a1d3 100%);
+}
+
+
+.intro-text p{
+    text-align:left;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+/*Adding amination to body*/
+/*
+.intro-text  {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 240px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+*/
+
+/*aminating the image*/
+.imagebg {
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+.intro-text li{
+    text-align:left;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.intro-text h4{
+    text-align: left;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.bg-shop{
+    background-color: #D3D3D3;
+}
+
+.homepage h5{
+    text-align: center;
+    color: #38A1F3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+   
+    
+}
+
+.homepage h2{
+    text-align: center;
+    color: #38A1F3;
+    letter-spacing: 7px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 44px;
+    border-style: groove;
+    border-radius: 33em;
+
+       
+}
+.op{
+text-decoration: line-through;
+}
+
+
+.items-content td{
+ border-style: ridge;
+ padding:28px ;
+ 
+}
+
+.section-new h4 {
+    font: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+   
+  
+}
+
+.section-new h5 {
+    font: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+
+
+.container:hover:not(.active){
+    background-color: lightcyan;
+    color:#38A1F3;
+}
+
+.homepage h2:hover:not(.active){
+    background-color: #38A1F3;
+    color:white;
+}
+
+.container h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 22px;
+    color: darkslategrey;
+}
+
+.container h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: darkslategrey;
+}
+
+
+
+.centered{
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+
+.centered h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 39px;
+    color: blueviolet;
+
+}
+
+.centered a{
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+}
+.top-left a{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    transform: translate(-497%, -680%);
+    color: white;
+    background-color: #38A1F3;
+    border-radius: 8em;
+}
+
+.contact-top-left a{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    transform: translate(-480%, -680%);
+    color: white;
+    background-color:#38A1F3;
+    border-radius: 8em;
+   
+   
+}
+
+.location .ress{
+    margin: 30px;
+    padding: 40px;
+    color: darkslategray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+   
+    
+}
+
+.ress a{
+    text-decoration: none;
+    color: midnightblue;
+}
+
+.aboutus{
+    margin: 30px;
+    padding: 50px;
+   color: dodgerblue;
+}
+
+.aboutus h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: darkviolet;
+}
+
+.history{
+  background-color: lightcyan;
+}
+
+.history h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 44px;
+    font-display: 15px;
+    font-stretch: extra-condensed;
+    font: outline;
+    margin-top: -100px;
+    color: darkslategrey;
+}
+
+.history p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.history li{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 18px;
+    color: darkslategrey;
+}
+
+.imagebg{
+   padding-left: 500px;
+}
+
+.footer-section{
+    background-image: linear-gradient(90deg, #cc95c0 10%, #dbd4b4 35%, #7aa1d2 100%);
+}
+
+.footer-section h5{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique;
+   font-weight: bold;
+   color: darkmagenta;
+   text-decoration-line: underline;
+  
+
+}
+.footer-section li a{
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(5, 68, 85);
+    display: block;
+    
+}
+
+
+.footer-section li{
+    display: inline;
+    list-style-position: inside;
+    text-align: justify; 
+}
+
+.footer-section h6{
+     color: blue;
+     font: outline;
+
+}
+
+/*Style for get to know us section on footer*/
+.know-footer{
+    padding-left: 280px;
+    margin-top: -220px;
+    background-image: linear-gradient(90deg, #cc95c0 10%, #dbd4b4 35%, #7aa1d2 100%);
+}
+
+/*Style for social media footer section on footer*/
+
+.social-footer{
+    padding-left: 620px;
+    margin-top: -188px;
+    background-image: linear-gradient(90deg, #cc95c0 10%, #dbd4b4 35%, #7aa1d2 100%);
+}
+
+.location-footer{
+    padding-left: 900px;
+    margin-top: -220px;
+    background-image: linear-gradient(90deg, #cc95c0 10%, #dbd4b4 35%, #7aa1d2 100%);
+}
+
+/*Style for the contact form*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6em;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #76d0eb;
+  
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-form {
+    border-radius: 5em;
+    background-color: #f2f2f2;
+    padding: 80px;
+    width: 350px;
+    height: 520px;
+
+  }
+  /*add styles to the labels*/
+.contact-form label{
+    color: #4CAF50;
+    
+}
+
+.contact-form select{
+    color: #4CAF50;
+    
+}
+
+.contact-form select option{
+    color:#38A1F3;
+    
+}
