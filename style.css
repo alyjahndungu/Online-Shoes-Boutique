@@ -51,7 +51,7 @@
     background-attachment: fixed;
 }
 .navbar{
-    background-image: linear-gradient(90deg,  #490738  0%, #606d6c 35%,  #77a1d3 100%);
+    background-image: linear-gradient(90deg,  #490738  0%, #606d6c 35%, #490738 100%);
 }
 
 
@@ -129,6 +129,8 @@
     background-color: #D3D3D3;
 }
 
+
+
 .homepage{
     background-image: linear-gradient(90deg,  #490738  0%, #606d6c 35%,  #77a1d3 100%);
 }
@@ -154,6 +156,17 @@
 }
 .op{
 text-decoration: line-through;
+color: royalblue;
+font-size: 15px;
+position: absolute;
+text-align: center;
+}
+
+.items-content h6{
+
+color: lightyellow;
+font-size: 15px;
+
 }
 
 
@@ -224,34 +237,14 @@ text-decoration: line-through;
     margin: 15px;
     padding: 10px;
 }
-.top-left a{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    transform: translate(-497%, -680%);
-    color: white;
-    background-color: #38A1F3;
-    border-radius: 8em;
-}
 
-.contact-top-left a{
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-    transform: translate(-480%, -680%);
-    color: white;
-    background-color:#38A1F3;
-    border-radius: 8em;
-   
-   
-}
 
 .location .ress{
     margin: 30px;
     padding: 40px;
-    color: darkslategray;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 15px;
+    color: whitesmoke;
+    font: 0.9em sans-serif;
+  
    
     
 }
@@ -264,7 +257,7 @@ text-decoration: line-through;
 .aboutus{
     margin: 30px;
     padding: 50px;
-   color: dodgerblue;
+   color: blueviolet;
 }
 
 .aboutus h4{
@@ -319,8 +312,8 @@ text-decoration: line-through;
 }
 .footer-section li a{
    
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #fff;
+    font: 1em sans-serif;
+    color: black;
     display: block;
     
 }
@@ -342,7 +335,7 @@ text-decoration: line-through;
 .know-footer{
     padding-left: 280px;
     margin-top: -220px;
-    background-image: linear-gradient(90deg, #cc95c0 10%, #dbd4b4 35%, #7aa1d2 100%);
+    background-image: linear-gradient(90deg, #cc95c0 10%, #36f346 35%, #7aa1d2 100%);
 }
 
 /*Style for social media footer section on footer*/
@@ -350,13 +343,13 @@ text-decoration: line-through;
 .social-footer{
     padding-left: 620px;
     margin-top: -188px;
-    background-image: linear-gradient(90deg, #cc95c0 10%, #dbd4b4 35%, #7aa1d2 100%);
+    background-image: linear-gradient(90deg, #cc95c0 10%,  #36f346  35%, #7aa1d2 100%);
 }
 
 .location-footer{
     padding-left: 900px;
     margin-top: -220px;
-    background-image: linear-gradient(90deg, #cc95c0 10%, #dbd4b4 35%, #7aa1d2 100%);
+    background-image: linear-gradient(90deg, #cc95c0 10%,  #36f346  35%, #7aa1d2 100%);
 }
 
 /*Style for the contact form*/
