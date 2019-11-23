@@ -2,7 +2,7 @@
 /*Setting up the web screen responsiveness*/
 
     body {
-        background-image: linear-gradient(90deg, #020024 0%, #348f50 35%,#56b4d3 100%);
+        background-image: linear-gradient(90deg, #aeadbe 0%, #88a08f 35%,#a1d3e4 100%);
     }
 
 
@@ -50,12 +50,15 @@
     text-align: center;
     background-attachment: fixed;
 }
+.navbar{
+    background-image: linear-gradient(90deg,  #490738  0%, #606d6c 35%,  #77a1d3 100%);
+}
 
 
 .intro-text{ 
     padding-left: 50px;
     margin-top: -370px; 
-    background-image: linear-gradient(90deg,  #e684ce  0%, #79cbca 35%,  #77a1d3 100%);
+    background-image: linear-gradient(90deg,  #490738  0%, #606d6c 35%,  #77a1d3 100%);
 }
 
 
@@ -64,6 +67,7 @@
     color: #fff;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
+    font: 2em sans-serif;
 }
 
 /*Adding amination to body*/
@@ -125,6 +129,9 @@
     background-color: #D3D3D3;
 }
 
+.homepage{
+    background-image: linear-gradient(90deg,  #490738  0%, #606d6c 35%,  #77a1d3 100%);
+}
 .homepage h5{
     text-align: center;
     color: #38A1F3;
@@ -313,7 +320,7 @@ text-decoration: line-through;
 .footer-section li a{
    
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(5, 68, 85);
+    color: #fff;
     display: block;
     
 }
@@ -365,6 +372,18 @@ input[type=text], select, textarea {
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
     
   }
+
+  input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
+  }
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
@@ -385,15 +404,15 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .contact-form {
     border-radius: 5em;
-    background-color: #f2f2f2;
+    background-image: linear-gradient(90deg, #aeadbe 0%, #88a08f 35%,#a1d3e4 100%);
     padding: 80px;
     width: 350px;
-    height: 520px;
+    height: 600px;
 
   }
   /*add styles to the labels*/
 .contact-form label{
-    color: #4CAF50;
+    color: #D3D3D3;
     
 }
 
