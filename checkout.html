@@ -10,14 +10,63 @@
     <title>Checkout</title>
 </head>
 <body>
+
+<div class="check-text">
+        <h4>#NEW ARRIVAL</h4>
+        <p>
+           Being a royal service provider in Kenya. We welcome our beloved customers to enjoy the Christmas Brand Stock opening
+           and land amazing offers at affordable price.
+            
+        </p>
+   </div>
 <div class="new-arrivals">
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
     <img class="img" src="images/con1.png" alt="" >
     <img class="img" src="images/con2.png" alt="">
     <img class="img" src="images/con3.png" alt="">
     <img class="img" src="images/con4.png" alt="">
     <img  class="img" src="images/creosones_risime.jpeg" alt="">
-    <img class="img" src="images/high_heels.jpeg" alt="">
+    <img class="img" src="images/nike_air_jordan.jpeg" alt="">
+    <img class="img" src="images/ad1.jpg" alt="">
+    <img class="img" src="images/ad2.jpg" alt="">
+    <img class="img" src="images/ad3.jpg" alt="">
+    <img class="img" src="images/ad5.jpg" alt="">
+    <img class="img" src="images/ad6.jpg" alt="">
+    <img class="img" src="images/ad7.jpg" alt="">
+    <img class="img" src="images/ad8.jpg" alt="">
+    <img class="img" src="images/ad9.jpg" alt="">
+    <img class="img" src="images/adidas_runfalcon.jpeg" alt="">
+    <img class="img" src="images/led_luminous_spider.jpeg" alt="">
+    <img class="img" src="images/manysxy_light_shoes.jpeg" alt="">
+    <img class="img" src="images/jeans_sneakers.jpeg" alt="">
+
+
 
 </div>
+
+
+<script>
+
+// Get the modal
+var modal = document.getElementsByClassName("new-arrivals");
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementsByClassName("img");
+var modalImg = document.getElementsByClassName("img");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+modal.style.display = "block";
+modalImg.src = this.src;
+captionText.innerHTML = this.alt;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+ span.onclick = function() {
+
+modal.style.display = "none";
+}
+
+</script>
 </body>
 </html>
