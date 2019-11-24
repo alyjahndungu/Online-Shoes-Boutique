@@ -52,6 +52,7 @@
 }
 .navbar{
     background-image: linear-gradient(90deg,  #490738  0%, #606d6c 35%, #490738 100%);
+  
 }
 
 
@@ -472,4 +473,33 @@ input[type=text], select, textarea {
     color: blueviolet;
     font: 1em sans-serif;
 
+}
+
+/*buttons in the shop page,*/
+.overlay #add-cart{
+  border-radius: 3em;
+  background-color: #fff;
+  color: goldenrod;
+  border-color: goldenrod;
+  width: 3vw;
+  height: 2vw;
+}
+
+.overlay  #btn-rate{
+    border-radius: 3em;
+  background-color: #fff;
+  color: rgb(251, 6, 6);
+  border-color: rgb(250, 0, 0);
+  width: 3vw;
+  height: 2vw;
+}
+ 
+
+.overlay #btn-share{
+    border-radius: 3em;
+    background-color: #fff;
+    color: rgb(6, 22, 251);
+    border-color:  rgb(6, 22, 251);
+    width: 3vw;
+    height: 2vw;
 }
