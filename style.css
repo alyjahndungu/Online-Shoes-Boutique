@@ -418,3 +418,9 @@ input[type=text], select, textarea {
     color:#38A1F3;
     
 }
+
+/*style for checkout images*/
+.img{
+    width: 15vw;
+    height: 15vw;
+}
